@@ -38,6 +38,3 @@ temperature-converter-website/
 * Enable real-time conversion while typing.
 * Add dark mode support.
 * Include temperature history chart.
-
-
-Do you want me to also **add badges (like HTML5, CSS3, JavaScript, GitHub Pages)** at the top for a more professional look?
