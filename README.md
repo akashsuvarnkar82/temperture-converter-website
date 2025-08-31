@@ -9,9 +9,9 @@ It allows users to convert temperatures between **Celsius, Fahrenheit, and Kelvi
 * Live conversion– values update instantly when entered.
 * Dynamic weather icons:
 
-  -❄️ Snow for cold temperatures (≤ 3°C)
-  -🌧️ Rain for mild temperatures (4°C – 12°C)
-  -☀️ Sun for warm temperatures (≥ 13°C)
+  ❄️ Snow for cold temperatures (≤ 3°C) ,
+  🌧️ Rain for mild temperatures (4°C – 12°C) ,
+  ☀️ Sun for warm temperatures (≥ 13°C)
 
 * Clean and responsive UI design.
 * Supports up to 2 decimal precision.
