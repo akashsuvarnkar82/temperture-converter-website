@@ -2,39 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Temperature Converter</title>
-    <link rel="stylesheet" href="./style.css">
-
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <img src="https://pngimg.com/d/sun_PNG13434.png" alt="sunImg" class="sun">
+  <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7826434/snowflake-winter-clipart-xl.png" alt="snowImg" class="snow">
+  <img src="https://clipart-library.com/img/1817039.png" alt="rainIMg" class="rain">
 
-    <body>
-        <img src="https://pngimg.com/d/sun_PNG13434.png" alt="sunImg" class="sun">
-        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7826434/snowflake-winter-clipart-xl.png" alt="snowImg" class="snow">
-        <img src="https://clipart-library.com/img/1817039.png" alt="rainIMg" class="rain">
-        <div class="container">
-            <h1>Temperature Converter</h1>
-            <div class="temp-container">
-                <label for="celsius">Celsius:</label>
-                <input type="number" onchange="compute(event)" name="celsius" max="1000" placeholder="Enter Temperature" class="celsiusInput">
-            </div>
-            <div class="temp-container">
-                <label for="fahrenheit">Fahrenheit:</label>
-                <input type="number" onchange="compute(event)" name="fahrenheit" max="1000" placeholder="Enter Temperature" class="fahrenheitInput">
-            </div>
-            <div class="temp-container">
-                <label for="kelvin">Kelvin:</label>
-                <input type="number" onchange="compute(event)" name="kelvin" max="1000" placeholder="Enter Temperature" class="kelvinInput">
-            </div>
-        </div>
+  <div class="container">
+    <h1>Temperature Converter</h1>
 
+    <div class="temp-container">
+      <label for="celsius">Celsius:</label>
+      <input type="number" id="celsius" onchange="compute(event)" placeholder="Enter Temperature" class="celsiusInput">
+    </div>
 
-        <script src="script.js"></script>
-    </body>
-    <script src="./script.js"></script>
+    <div class="temp-container">
+      <label for="fahrenheit">Fahrenheit:</label>
+      <input type="number" id="fahrenheit" onchange="compute(event)" placeholder="Enter Temperature" class="fahrenheitInput">
+    </div>
 
+    <div class="temp-container">
+      <label for="kelvin">Kelvin:</label>
+      <input type="number" id="kelvin" onchange="compute(event)" placeholder="Enter Temperature" class="kelvinInput">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
